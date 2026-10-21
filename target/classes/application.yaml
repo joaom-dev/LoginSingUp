@@ -15,3 +15,7 @@ spring:
 
 server:
   port: 8082
+
+jwt:
+  expiration: ${JWT_EXPIRATION:900000}
+  key: ${JWT_KEY:Kx!#Ea9_f=R$N-dBz&M4jP!G9#W=sX-2&qA_7vL#1bF$Z&kE_9pT=3vC-8&mX_4jN!1bG#5vR=sQ-9&pZ_2jM!4bG#7vR=6&sX_3jP!9bG#1vR=sQ-2&pZ_7jM!1bG#4vR=sX-9&qA_3vL#9bF$Z&kE_2pT=1vC-4&mX_9jN!7bG#3vR=sQ-1&pZ_4jM!9bG#2vR=sX-3jP!1bG#9vR=sQ-4&pZ_3jM!7bG#1vR=6&sX_9jP!2bG#4vR=sQ-3&pZ_9jM!1bG#7vR=sX-4&qA_2vL#3bF$Z&kE_9pT=4vC-1&mX_2jN!9bG#4vR=sQ-3&pZ_1jM!4bG#9vR=2&sX_}
