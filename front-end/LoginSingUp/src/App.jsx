@@ -2,6 +2,7 @@ import Header from './components/Header'
 import Hero from './components/Hero'
 import AuthSection from './components/AuthSection'
 import Footer from './components/Footer'
+import MatrixRain from './components/MatrixRain'
 import { useTheme } from './hooks/useTheme'
 import './App.css'
 
@@ -10,6 +11,7 @@ function App() {
 
   return (
     <>
+      <MatrixRain />
       <a className="skip-link" href="#conteudo">
         Pular para o conteúdo
       </a>
