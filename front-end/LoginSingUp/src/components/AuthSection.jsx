@@ -46,7 +46,7 @@ export default function AuthSection() {
           <p className="notice">
             <InfoIcon size={20} />
             <span>
-              Esta área ainda é só visual. Nenhum dado é enviado, e as senhas não ficam guardadas no navegador.
+              Os dados que são armazenados no banco de dados como as senhas, são criptografados por motivos de melhor segurança e privatização dessas informações.
             </span>
           </p>
         </div>

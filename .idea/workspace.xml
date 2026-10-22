@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d219d625-e268-4271-a964-9325da4b9d38" name="Changes" comment="configuração de controller, service, entity, dto e excepiton">
-      <change beforePath="$PROJECT_DIR$/src/main/java/LoginSingUp/config/JwtAuthFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LoginSingUp/config/JwtAuthFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LoginSingUp/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LoginSingUp/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LoginSingUp/config/TokenProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LoginSingUp/config/TokenProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LoginSingUp/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LoginSingUp/controller/UserController.java" afterDir="false" />
-    </list>
+    <list default="true" id="d219d625-e268-4271-a964-9325da4b9d38" name="Changes" comment="utilizaçao do Spring Security, criação de Token, filter, permição, autenticação" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -132,7 +127,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="configuração de controller, service, entity, dto e excepiton" />
-    <option name="LAST_COMMIT_MESSAGE" value="configuração de controller, service, entity, dto e excepiton" />
+    <MESSAGE value="utilizaçao do Spring Security, criação de Token, filter, permição, autenticação" />
+    <option name="LAST_COMMIT_MESSAGE" value="utilizaçao do Spring Security, criação de Token, filter, permição, autenticação" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
