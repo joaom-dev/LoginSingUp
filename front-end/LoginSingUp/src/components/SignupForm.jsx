@@ -39,9 +39,9 @@ export default function SignupForm({ onSwitchToLogin }) {
     setLoading(true)
     try {
       await register(form.values)
-      setMessage('Os dados estão válidos, mas ainda não há API conectada. Nenhuma conta foi criada.')
-    } catch {
-      setMessage('Não foi possível criar a conta agora. Tente novamente em instantes.')
+      setMessage('Conta criada com sucesso! Agora é só entrar.')
+    } catch (error) {
+      setMessage(error.message)
     } finally {
       setLoading(false)
     }

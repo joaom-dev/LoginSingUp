@@ -32,9 +32,9 @@ export default function LoginForm({ onSwitchToSignup }) {
     setLoading(true)
     try {
       await login(form.values)
-      setMessage('Os dados estão válidos, mas ainda não há API conectada. Nada foi enviado.')
-    } catch {
-      setMessage('Não foi possível entrar agora. Tente novamente em instantes.')
+      setMessage('Login realizado com sucesso!')
+    } catch (error) {
+      setMessage(error.message)
     } finally {
       setLoading(false)
     }
