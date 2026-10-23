@@ -3,6 +3,9 @@ package LoginSingUp.database.entity;
 import jakarta.persistence.*;
 import lombok.*;
 
+import java.util.HashSet;
+import java.util.Set;
+
 @Entity
 @Table(name = "users")
 @NoArgsConstructor
@@ -10,7 +13,6 @@ import lombok.*;
 @Getter
 @Setter
 @Builder
-
 public class UserEntity {
 
     @Id
@@ -25,4 +27,11 @@ public class UserEntity {
 
     @Column(nullable = false)
     private String password;
+
+    @ManyToMany(fetch = FetchType.EAGER)
+    @JoinTable(name = "users_roles",
+            joinColumns = @JoinColumn(name = "user_id"),
+            inverseJoinColumns = @JoinColumn(name = "role_id"))
+    @Builder.Default
+    private Set<RolesEntity> roles = new HashSet<>();
 }
