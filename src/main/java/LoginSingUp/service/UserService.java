@@ -56,7 +56,8 @@ public class UserService {
             Authentication authentication = authenticationManager.authenticate(
                     new UsernamePasswordAuthenticationToken(loginDto.email(), loginDto.password()));
             return new TokenDto(tokenProvider.gerarToken(authentication));
-        } catch (AuthenticationException e) {
+        }
+        catch (AuthenticationException e) {
             throw new ResponseStatusException(HttpStatus.UNAUTHORIZED, "Email ou senha inválidos");
         }
     }

@@ -4,32 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d219d625-e268-4271-a964-9325da4b9d38" name="Changes" comment="">
+    <list default="true" id="d219d625-e268-4271-a964-9325da4b9d38" name="Changes" comment="Parte de cadastro, login, roles, segurança, token feitas no back-end">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LoginSingUp/config/PasswordConfig.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/LoginSingUp/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LoginSingUp/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LoginSingUp/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LoginSingUp/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LoginSingUp/database/entity/UserEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LoginSingUp/database/entity/UserEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LoginSingUp/service/UserDetailsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LoginSingUp/service/UserDetailsServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/LoginSingUp/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LoginSingUp/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/LoginSingUp/Config/JwtAuthFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LoginSingUp/Config/JwtAuthFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/LoginSingUp/Config/PasswordConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/LoginSingUp/Config/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LoginSingUp/Config/SecurityConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/LoginSingUp/Config/TokenProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LoginSingUp/Config/TokenProvider.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/LoginSingUp/DataBase/Repository/IUserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LoginSingUp/DataBase/Repository/IUserRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/LoginSingUp/DataBase/entity/UserEntity$UserEntityBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LoginSingUp/DataBase/entity/UserEntity$UserEntityBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/LoginSingUp/DataBase/entity/UserEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LoginSingUp/DataBase/entity/UserEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/LoginSingUp/Dto/UserDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LoginSingUp/Dto/UserDto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/LoginSingUp/LoginSingUpApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LoginSingUp/LoginSingUpApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/LoginSingUp/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LoginSingUp/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/LoginSingUp/exception/BadRequestException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LoginSingUp/exception/BadRequestException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/LoginSingUp/exception/ErroResponse$ErroResponseBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LoginSingUp/exception/ErroResponse$ErroResponseBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/LoginSingUp/exception/ErroResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LoginSingUp/exception/ErroResponse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/LoginSingUp/exception/NotFoundException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LoginSingUp/exception/NotFoundException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/LoginSingUp/handler/GlobalExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LoginSingUp/handler/GlobalExceptionHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/LoginSingUp/service/UserDetailsServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LoginSingUp/service/UserDetailsServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/LoginSingUp/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LoginSingUp/service/UserService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,7 +134,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="configuração de controller, service, entity, dto e excepiton" />
     <MESSAGE value="utilizaçao do Spring Security, criação de Token, filter, permição, autenticação" />
-    <option name="LAST_COMMIT_MESSAGE" value="utilizaçao do Spring Security, criação de Token, filter, permição, autenticação" />
+    <MESSAGE value="Parte de cadastro, login, roles, segurança, token feitas no back-end" />
+    <option name="LAST_COMMIT_MESSAGE" value="Parte de cadastro, login, roles, segurança, token feitas no back-end" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
