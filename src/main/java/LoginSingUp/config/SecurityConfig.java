@@ -44,6 +44,7 @@ public class SecurityConfig {
                 .authorizeHttpRequests(auth -> auth
                         .requestMatchers(HttpMethod.POST, "/juao/auth/**").permitAll()
                         .requestMatchers(HttpMethod.GET, "/juao/users").hasRole("ADM")
+                        .requestMatchers(HttpMethod.DELETE, "/juao/users/delete").hasRole("USERS")
                         .anyRequest().authenticated()
                 )
                 .addFilterBefore(jwtAuthFilter, UsernamePasswordAuthenticationFilter.class)

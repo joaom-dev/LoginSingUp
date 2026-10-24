@@ -18,6 +18,7 @@ import org.springframework.security.core.Authentication;
 import org.springframework.security.core.AuthenticationException;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.server.ResponseStatusException;
 
 import java.util.HashSet;
@@ -66,5 +67,13 @@ public class UserService {
         return userRepository.findAll().stream()
                 .map(u -> new UserResponseDto(u.getId(), u.getName(), u.getEmail()))
                 .toList();
+    }
+
+    @Transactional
+    public void deleteAccount(String email) {
+        UserEntity user = userRepository.findByEmail(email)
+                .orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND, "Usuário não encontrado"));
+
+        userRepository.delete(user);
     }
 }

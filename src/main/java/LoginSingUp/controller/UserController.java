@@ -8,6 +8,8 @@ import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.apache.coyote.BadRequestException;
 import org.springframework.http.HttpStatus;
+import org.springframework.security.core.annotation.AuthenticationPrincipal;
+import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
@@ -28,5 +30,11 @@ public class UserController {
     @PostMapping("/login")
     public TokenDto login(@Valid @RequestBody LoginDto loginDto) {
         return userService.login(loginDto);
+    }
+
+    @DeleteMapping("/delete")
+    @ResponseStatus(HttpStatus.NO_CONTENT)
+    public void deleteAccount(@AuthenticationPrincipal UserDetails userDetails) {
+        userService.deleteAccount(userDetails.getUsername());
     }
 }
