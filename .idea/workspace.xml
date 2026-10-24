@@ -4,25 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d219d625-e268-4271-a964-9325da4b9d38" name="Changes" comment="configuração de CORS">
+    <list default="true" id="d219d625-e268-4271-a964-9325da4b9d38" name="Changes" comment="criação arquivo docker">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/LoginSingUp/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/LoginSingUp/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/LoginSingUp/src/components/AuthSection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/LoginSingUp/src/components/AuthSection.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/LoginSingUp/src/components/LoginForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/LoginSingUp/src/components/LoginForm.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/LoginSingUp/src/content.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/LoginSingUp/src/content.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/LoginSingUp/src/hooks/useFormValidation.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/LoginSingUp/src/hooks/useFormValidation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/LoginSingUp/src/hooks/useTheme.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/LoginSingUp/src/hooks/useTheme.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/LoginSingUp/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/LoginSingUp/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/LoginSingUp/src/services/authApi.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/LoginSingUp/src/services/authApi.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LoginSingUp/config/JwtAuthFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LoginSingUp/config/JwtAuthFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LoginSingUp/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LoginSingUp/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LoginSingUp/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LoginSingUp/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LoginSingUp/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LoginSingUp/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/LoginSingUp/Config/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LoginSingUp/Config/SecurityConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/LoginSingUp/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LoginSingUp/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/LoginSingUp/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LoginSingUp/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +20,7 @@
         <option value="Exception" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="Dockerfile" />
       </list>
     </option>
   </component>
@@ -151,7 +137,9 @@
     <MESSAGE value="utilizaçao do Spring Security, criação de Token, filter, permição, autenticação" />
     <MESSAGE value="Parte de cadastro, login, roles, segurança, token feitas no back-end" />
     <MESSAGE value="configuração de CORS" />
-    <option name="LAST_COMMIT_MESSAGE" value="configuração de CORS" />
+    <MESSAGE value="implementação das regras de negocio para deletar a conta" />
+    <MESSAGE value="criação arquivo docker" />
+    <option name="LAST_COMMIT_MESSAGE" value="criação arquivo docker" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
