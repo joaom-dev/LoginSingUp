@@ -5,24 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d219d625-e268-4271-a964-9325da4b9d38" name="Changes" comment="configuração de CORS">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/LoginSingUp/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/LoginSingUp/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/LoginSingUp/src/components/AuthSection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/LoginSingUp/src/components/AuthSection.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/LoginSingUp/src/components/LoginForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/LoginSingUp/src/components/LoginForm.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/LoginSingUp/src/content.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/LoginSingUp/src/content.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/LoginSingUp/src/hooks/useFormValidation.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/LoginSingUp/src/hooks/useFormValidation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/LoginSingUp/src/hooks/useTheme.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/LoginSingUp/src/hooks/useTheme.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/LoginSingUp/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/LoginSingUp/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/LoginSingUp/src/services/authApi.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/LoginSingUp/src/services/authApi.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LoginSingUp/config/JwtAuthFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LoginSingUp/config/JwtAuthFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LoginSingUp/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LoginSingUp/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LoginSingUp/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LoginSingUp/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LoginSingUp/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LoginSingUp/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LoginSingUp/Config/JwtAuthFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LoginSingUp/Config/JwtAuthFilter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/LoginSingUp/Config/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LoginSingUp/Config/SecurityConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/LoginSingUp/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LoginSingUp/controller/UserController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/LoginSingUp/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LoginSingUp/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +26,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="appmod/java-upgrade-20260819003243" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -80,7 +72,7 @@
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "Spring Boot.LoginSingUpApplication.executor": "Run",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "#1 on appmod/java-upgrade-20260819003243",
+    "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.jshint": "true",
@@ -93,6 +85,10 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\marco\OneDrive\Documentos\LoginSingUp" />
+      <recent name="C:\Users\marco\OneDrive\Documentos\LoginSingUp\back-end" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="LoginSingUp.handler" />
       <recent name="LoginSingUp.dto" />
