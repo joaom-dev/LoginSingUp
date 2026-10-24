@@ -2,7 +2,7 @@ spring:
   application:
     name: LoginSingUp
   datasource:
-    url: jdbc:mysql://localhost:3306/juao_authentication?createDatabaseIfNotExist=true
+    url: ${URL_DB}
     username: ${USERNAME_DB}
     password: ${PASSWORD_DB}
   jpa:
