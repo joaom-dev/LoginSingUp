@@ -13,7 +13,7 @@ const validate = (values) => ({
   password: validateLoginPassword(values.password),
 })
 
-export default function LoginForm({ onSwitchToSignup }) {
+export default function LoginForm({ onLogin, onSwitchToSignup }) {
   const formRef = useRef(null)
   const [loading, setLoading] = useState(false)
   const [message, setMessage] = useState('')
@@ -32,7 +32,7 @@ export default function LoginForm({ onSwitchToSignup }) {
     setLoading(true)
     try {
       await login(form.values)
-      setMessage('Login realizado com sucesso!')
+      onLogin() // avisa a AuthSection para mostrar a área da conta
     } catch (error) {
       setMessage(error.message)
     } finally {

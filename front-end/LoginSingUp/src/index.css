@@ -1,9 +1,3 @@
-/* ==========================================================================
-   index.css
-   Variáveis de design (cores, fontes, raios), reset, estilos globais e peças
-   compartilhadas (botões e campos de formulário).
-   Para mudar o visual do projeto inteiro, comece pelas variáveis abaixo.
-   ========================================================================== */
 
 :root {
   --font-body: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
@@ -14,7 +8,7 @@
   --radius-lg: 24px;
   --header-h: 64px;
 
-  /* Tema claro (padrão) */
+  
   color-scheme: light;
   --bg: #f4f6fb;
   --surface: #ffffff;
@@ -33,6 +27,8 @@
   --shadow: 0 1px 2px rgba(16, 24, 40, 0.06), 0 18px 40px -16px rgba(16, 24, 40, 0.22);
   --rain-color: #2563eb;
   --rain-opacity: 0.16;
+  --danger-solid: #b42318;
+  --danger-solid-hover: #912018;
 }
 
 :root[data-theme='dark'] {
@@ -53,9 +49,11 @@
   --shadow: 0 1px 2px rgba(0, 0, 0, 0.4), 0 18px 40px -16px rgba(0, 0, 0, 0.6);
   --rain-color: #4d8dff;
   --rain-opacity: 0.35;
+  --danger-solid: #d92d20;
+  --danger-solid-hover: #b42318;
 }
 
-/* ---------- Reset e base ---------- */
+
 
 *,
 *::before,
@@ -143,8 +141,6 @@ p {
   top: 1rem;
 }
 
-/* ---------- Botões ---------- */
-
 .btn {
   display: inline-flex;
   align-items: center;
@@ -183,6 +179,25 @@ p {
   cursor: progress;
 }
 
+.btn--secondary {
+  border: 1.5px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+}
+
+.btn--secondary:hover {
+  border-color: var(--text-muted);
+}
+
+.btn--danger {
+  background: var(--danger-solid);
+  color: #ffffff;
+}
+
+.btn--danger:hover {
+  background: var(--danger-solid-hover);
+}
+
 .link-button {
   min-height: 44px;
   padding: 0.5rem 0;
@@ -215,7 +230,6 @@ p {
   }
 }
 
-/* ---------- Campos de formulário ---------- */
 
 .field {
   display: grid;
@@ -260,7 +274,7 @@ p {
   border-radius: var(--radius-md);
   background: transparent;
   color: var(--text);
-  font: inherit; /* 16px+ evita o zoom automático no iOS */
+  font: inherit; 
 }
 
 .field__input::placeholder {
@@ -269,7 +283,7 @@ p {
 }
 
 .field__input:focus-visible {
-  outline: none; /* o foco aparece no contêiner (.field__control) */
+  outline: none; 
 }
 
 .field__input:-webkit-autofill {
@@ -325,7 +339,7 @@ p {
   accent-color: var(--button-bg);
 }
 
-/* ---------- Movimento reduzido ---------- */
+
 
 @media (prefers-reduced-motion: reduce) {
   *,

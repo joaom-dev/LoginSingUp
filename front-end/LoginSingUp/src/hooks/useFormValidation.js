@@ -1,10 +1,5 @@
 import { useState } from 'react'
 
-/**
- * Controla valores, campos "tocados" e erros de um formulário.
- * `validate(values)` deve devolver um objeto { campo: 'mensagem' | '' }
- * com todas as chaves dos campos validados.
- */
 export function useFormValidation(initialValues, validate) {
   const [values, setValues] = useState(initialValues)
   const [touched, setTouched] = useState({})
@@ -22,7 +17,7 @@ export function useFormValidation(initialValues, validate) {
     setTouched((current) => ({ ...current, [name]: true }))
   }
 
-  // O erro só aparece depois que a pessoa sai do campo ou tenta enviar.
+
   function getError(name) {
     return touched[name] ? errors[name] : ''
   }

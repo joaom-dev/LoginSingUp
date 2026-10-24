@@ -7,7 +7,7 @@ function getSystemTheme() {
   return window.matchMedia(DARK_QUERY).matches ? 'dark' : 'light'
 }
 
-// O localStorage guarda SOMENTE a preferência visual de tema.
+
 function readStoredTheme() {
   try {
     const value = localStorage.getItem(STORAGE_KEY)
@@ -21,7 +21,7 @@ export function useTheme() {
   const [storedTheme, setStoredTheme] = useState(readStoredTheme)
   const [systemTheme, setSystemTheme] = useState(getSystemTheme)
 
-  // Enquanto a pessoa não escolher, o tema acompanha o sistema operacional.
+  
   const theme = storedTheme ?? systemTheme
 
   useEffect(() => {
@@ -41,7 +41,7 @@ export function useTheme() {
     try {
       localStorage.setItem(STORAGE_KEY, next)
     } catch {
-      /* sem acesso ao localStorage: a escolha vale só nesta sessão */
+     
     }
   }, [theme])
 

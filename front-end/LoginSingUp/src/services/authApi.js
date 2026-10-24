@@ -1,7 +1,7 @@
 const API_URL = import.meta.env.VITE_API_URL ?? 'http://localhost:8080'
 const TOKEN_KEY = 'token'
 
-class ApiError extends Error {
+export class ApiError extends Error {
   constructor(message, status) {
     super(message)
     this.status = status
@@ -61,15 +61,15 @@ export async function login({ email, password, remember }) {
     throw new ApiError('Não foi possível entrar agora. Tente novamente em instantes.', res.status)
   }
 
+  
+
   const { token } = await res.json()
 
-  // "Manter conectado": localStorage persiste; sessionStorage some ao fechar a aba.
   logout()
   const storage = remember ? localStorage : sessionStorage
   storage.setItem(TOKEN_KEY, token)
 }
 
-// Rota restrita ao ROLE_ADM
 export async function getUsers() {
   const res = await request('/juao/users', { method: 'GET', auth: true })
 
@@ -80,4 +80,10 @@ export async function getUsers() {
     throw new ApiError('Não foi possível carregar os usuários.', res.status)
   }
   return res.json()
+}
+
+export async function deleteAccount() {
+    const res = await request('/juao/auth/delete', { method: 'DELETE', auth: true })
+    if (!res.ok) throw new ApiError('Não foi possível excluir a conta.', res.status)
+    logout()
 }
