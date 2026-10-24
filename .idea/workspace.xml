@@ -4,12 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d219d625-e268-4271-a964-9325da4b9d38" name="Changes" comment="configuração de CORS">
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+    <list default="true" id="d219d625-e268-4271-a964-9325da4b9d38" name="Changes" comment="test ignore">
       <change beforePath="$PROJECT_DIR$/target/classes/LoginSingUp/Config/JwtAuthFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LoginSingUp/Config/JwtAuthFilter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/LoginSingUp/Config/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LoginSingUp/Config/SecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LoginSingUp/Config/TokenProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LoginSingUp/Config/TokenProvider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LoginSingUp/DataBase/Repository/IRolesRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LoginSingUp/DataBase/Repository/IRolesRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LoginSingUp/DataBase/Repository/IUserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LoginSingUp/DataBase/Repository/IUserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LoginSingUp/DataBase/entity/RolesEntity$RolesEntityBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LoginSingUp/DataBase/entity/RolesEntity$RolesEntityBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LoginSingUp/DataBase/entity/RolesEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LoginSingUp/DataBase/entity/RolesEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LoginSingUp/DataBase/entity/UserEntity$UserEntityBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LoginSingUp/DataBase/entity/UserEntity$UserEntityBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LoginSingUp/DataBase/entity/UserEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LoginSingUp/DataBase/entity/UserEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LoginSingUp/Dto/LoginDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LoginSingUp/Dto/LoginDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LoginSingUp/Dto/UserDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LoginSingUp/Dto/UserDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LoginSingUp/LoginSingUpApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LoginSingUp/LoginSingUpApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LoginSingUp/controller/UserAdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LoginSingUp/controller/UserAdminController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/LoginSingUp/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LoginSingUp/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LoginSingUp/exception/ErroResponse$ErroResponseBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LoginSingUp/exception/ErroResponse$ErroResponseBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LoginSingUp/exception/ErroResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LoginSingUp/exception/ErroResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LoginSingUp/handler/GlobalExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LoginSingUp/handler/GlobalExceptionHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LoginSingUp/service/UserDetailsServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LoginSingUp/service/UserDetailsServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/LoginSingUp/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LoginSingUp/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yaml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,27 +78,27 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "Spring Boot.LoginSingUpApplication.executor": "Run",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.jshint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.jshint": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;Spring Boot.LoginSingUpApplication.executor&quot;: &quot;Run&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\marco\OneDrive\Documentos\LoginSingUp" />
@@ -147,7 +162,8 @@
     <MESSAGE value="utilizaçao do Spring Security, criação de Token, filter, permição, autenticação" />
     <MESSAGE value="Parte de cadastro, login, roles, segurança, token feitas no back-end" />
     <MESSAGE value="configuração de CORS" />
-    <option name="LAST_COMMIT_MESSAGE" value="configuração de CORS" />
+    <MESSAGE value="test ignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="test ignore" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
