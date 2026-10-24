@@ -4,27 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d219d625-e268-4271-a964-9325da4b9d38" name="Changes" comment="test ignore">
-      <change beforePath="$PROJECT_DIR$/target/classes/LoginSingUp/Config/JwtAuthFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LoginSingUp/Config/JwtAuthFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/LoginSingUp/Config/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LoginSingUp/Config/SecurityConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/LoginSingUp/Config/TokenProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LoginSingUp/Config/TokenProvider.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/LoginSingUp/DataBase/Repository/IRolesRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LoginSingUp/DataBase/Repository/IRolesRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/LoginSingUp/DataBase/Repository/IUserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LoginSingUp/DataBase/Repository/IUserRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/LoginSingUp/DataBase/entity/RolesEntity$RolesEntityBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LoginSingUp/DataBase/entity/RolesEntity$RolesEntityBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/LoginSingUp/DataBase/entity/RolesEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LoginSingUp/DataBase/entity/RolesEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/LoginSingUp/DataBase/entity/UserEntity$UserEntityBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LoginSingUp/DataBase/entity/UserEntity$UserEntityBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/LoginSingUp/DataBase/entity/UserEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LoginSingUp/DataBase/entity/UserEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/LoginSingUp/Dto/LoginDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LoginSingUp/Dto/LoginDto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/LoginSingUp/Dto/UserDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LoginSingUp/Dto/UserDto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/LoginSingUp/LoginSingUpApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LoginSingUp/LoginSingUpApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/LoginSingUp/controller/UserAdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LoginSingUp/controller/UserAdminController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/LoginSingUp/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LoginSingUp/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/LoginSingUp/exception/ErroResponse$ErroResponseBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LoginSingUp/exception/ErroResponse$ErroResponseBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/LoginSingUp/exception/ErroResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LoginSingUp/exception/ErroResponse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/LoginSingUp/handler/GlobalExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LoginSingUp/handler/GlobalExceptionHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/LoginSingUp/service/UserDetailsServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LoginSingUp/service/UserDetailsServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/LoginSingUp/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LoginSingUp/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yaml" beforeDir="false" />
+    <list default="true" id="d219d625-e268-4271-a964-9325da4b9d38" name="Changes" comment="url do banco em uma variavel de ambiente">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/LoginSingUp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/LoginSingUp/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LoginSingUp/LoginSingUpApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/src/main/java/LoginSingUp/LoginSingUpApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LoginSingUp/config/JwtAuthFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/src/main/java/LoginSingUp/config/JwtAuthFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LoginSingUp/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/src/main/java/LoginSingUp/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LoginSingUp/config/TokenProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/src/main/java/LoginSingUp/config/TokenProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LoginSingUp/controller/UserAdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/src/main/java/LoginSingUp/controller/UserAdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LoginSingUp/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/src/main/java/LoginSingUp/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LoginSingUp/database/entity/RolesEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/src/main/java/LoginSingUp/database/entity/RolesEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LoginSingUp/database/entity/UserEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/src/main/java/LoginSingUp/database/entity/UserEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LoginSingUp/database/repository/IRolesRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/src/main/java/LoginSingUp/database/repository/IRolesRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LoginSingUp/database/repository/IUserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/src/main/java/LoginSingUp/database/repository/IUserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LoginSingUp/dto/LoginDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/src/main/java/LoginSingUp/dto/LoginDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LoginSingUp/dto/TokenDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/src/main/java/LoginSingUp/dto/TokenDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LoginSingUp/dto/UserDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/src/main/java/LoginSingUp/dto/UserDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LoginSingUp/dto/UserResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/src/main/java/LoginSingUp/dto/UserResponseDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LoginSingUp/exception/BadRequestException.java" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/src/main/java/LoginSingUp/exception/BadRequestException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LoginSingUp/exception/ErroResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/src/main/java/LoginSingUp/exception/ErroResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LoginSingUp/exception/NotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/src/main/java/LoginSingUp/exception/NotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LoginSingUp/handler/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/src/main/java/LoginSingUp/handler/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LoginSingUp/service/UserDetailsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/src/main/java/LoginSingUp/service/UserDetailsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LoginSingUp/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/src/main/java/LoginSingUp/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/src/main/resources/application.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,8 +106,8 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\marco\OneDrive\Documentos\LoginSingUp" />
       <recent name="C:\Users\marco\OneDrive\Documentos\LoginSingUp\back-end" />
+      <recent name="C:\Users\marco\OneDrive\Documentos\LoginSingUp" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="LoginSingUp.handler" />
@@ -113,9 +118,10 @@
     <configuration name="LoginSingUpApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <envs>
         <env name="JWT_EXPIRATION" value="900000" />
+        <env name="JWT_KEY" value="Kx!#Ea9_f=R$N-dBz&amp;M4jP!G9#W=sX-2&amp;qA_7vL#1bF$Z&amp;kE_9pT=3vC-8&amp;mX_4jN!1bG#5vR=sQ-9&amp;pZ_2jM!4bG#7vR=6&amp;sX_3jP!9bG#1vR=sQ-2&amp;pZ_7jM!1bG#4vR=sX-9&amp;qA_3vL#9bF$Z&amp;kE_2pT=1vC-4&amp;mX_9jN!7bG#3vR=sQ-1&amp;pZ_4jM!9bG#2vR=sX-3jP!1bG#9vR=sQ-4&amp;pZ_3jM!7bG#1vR=6&amp;sX_9jP!2bG#4vR=sQ-3&amp;pZ_9jM!1bG#7vR=sX-4&amp;qA_2vL#3bF$Z&amp;kE_9pT=4vC-1&amp;mX_2jN!9bG#4vR=sQ-3&amp;pZ_1jM!4bG#9vR=2&amp;sX_" />
         <env name="PASSWORD_DB" value="paco1224007" />
         <env name="USERNAME_DB" value="root" />
-        <env name="JWT_KEY" value="Kx!#Ea9_f=R$N-dBz&amp;M4jP!G9#W=sX-2&amp;qA_7vL#1bF$Z&amp;kE_9pT=3vC-8&amp;mX_4jN!1bG#5vR=sQ-9&amp;pZ_2jM!4bG#7vR=6&amp;sX_3jP!9bG#1vR=sQ-2&amp;pZ_7jM!1bG#4vR=sX-9&amp;qA_3vL#9bF$Z&amp;kE_2pT=1vC-4&amp;mX_9jN!7bG#3vR=sQ-1&amp;pZ_4jM!9bG#2vR=sX-3jP!1bG#9vR=sQ-4&amp;pZ_3jM!7bG#1vR=6&amp;sX_9jP!2bG#4vR=sQ-3&amp;pZ_9jM!1bG#7vR=sX-4&amp;qA_2vL#3bF$Z&amp;kE_9pT=4vC-1&amp;mX_2jN!9bG#4vR=sQ-3&amp;pZ_1jM!4bG#9vR=2&amp;sX_" />
+        <env name="URL_DB" value="jdbc:mysql://localhost:3306/juao_authentication?createDatabaseIfNotExist=true" />
       </envs>
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UnknownPolicyInFreeMode" />
       <module name="LoginSingUp" />
@@ -163,7 +169,8 @@
     <MESSAGE value="Parte de cadastro, login, roles, segurança, token feitas no back-end" />
     <MESSAGE value="configuração de CORS" />
     <MESSAGE value="test ignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="test ignore" />
+    <MESSAGE value="url do banco em uma variavel de ambiente" />
+    <option name="LAST_COMMIT_MESSAGE" value="url do banco em uma variavel de ambiente" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
