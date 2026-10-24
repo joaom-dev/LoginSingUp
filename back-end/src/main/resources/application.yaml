@@ -19,3 +19,8 @@ server:
 jwt:
   expiration: ${JWT_EXPIRATION}
   key: ${JWT_KEY}
+
+logging:
+  level:
+    LoginSingUp: DEBUG
+    org.springframework.security: DEBUG
